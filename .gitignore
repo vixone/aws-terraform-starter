@@ -1,0 +1,32 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore the override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore the backup files
+*.tfvars.backup
+
+# Ignore the .terraform directory, which contains provider plugins and cached modules
+.terraform/
+
+# Ignore the crash log
+crash.log
+
+# Ignore the .terraform.lock.hcl file, which is used for locking provider versions
+.terraform.lock.hcl
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore sensitive output files
+*.tfvars
