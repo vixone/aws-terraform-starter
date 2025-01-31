@@ -136,6 +136,3 @@ If you receive an error about security groups not being found, ensure that the s
 ### 2. **API Gateway Configuration Error**  
 If you encounter issues with API Gateway integration (e.g., VPC link or URI), check that the correct EC2 instance private IP is being used, and ensure that your VPC setup is valid.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
